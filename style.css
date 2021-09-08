@@ -2,3 +2,31 @@
   margin-left : 80px;
   font-size : 18px;
 }
+.parent {
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+  margin: 30px;
+  height: 700px;
+  border: 2px solid gray;
+}
+
+.score {
+  font-size: 50px;
+  padding: 60px;
+  font-weight: bold;
+  
+}
+
+.spiderman, .gem, .captain, .wonderwomen {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid gray;
+  margin: 20px;
+  height: 200px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 0 10px gray;
+}
